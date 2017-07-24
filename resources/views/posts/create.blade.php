@@ -1,6 +1,6 @@
-@extends('layouts.master')
+@extends ('layouts.master')
 
-@section('content')
+@section ('content')
     <div class="col-sm-8 blog-main">
         <h1>Create a post</h1>
         <form method="POST" action="/posts">
@@ -20,7 +20,7 @@
                 <button type="submit" class="btn btn-primary">Publish</button>
             </div>
 
-            @include('layouts.errors')
+            @include ('layouts.errors')
 
         </form>
 

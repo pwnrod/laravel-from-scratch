@@ -20,7 +20,7 @@
 
 <body>
 
-@include('layouts.nav')
+@include ('layouts.nav')
 
 <div class="blog-header">
     <div class="container">
@@ -31,14 +31,14 @@
 
 <div class="container">
     <div class="row">
-        @yield('content')
+        @yield ('content')
 
-        @include('layouts.sidebar')
+        @include ('layouts.sidebar')
 
     </div><!-- /.row -->
 
 </div><!-- /.container -->
 
-@include('layouts.footer')
+@include ('layouts.footer')
 
 </html>
